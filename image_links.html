@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #631533;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #c0c0c0;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .menu {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu li {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .menu img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Visual Voyage</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#menu">Menu</a>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to my Website! Home of amazing images from the latest technology, to Nature and food.</p>
+        <a href="https://www.freepik.com/free-photo/medium-shot-man-wearing-vr-glasses_19265130.htm#fromView=search&page=1&position=4&uuid=91439dab-705a-4c55-94ce-2a79992d2913"><img src="images/technology.jpg" alt="Technology" style="width:500px;height:300px"></a>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="https://www.freepik.com/free-photo/group-elephants-big-green-tree-wilderness_10477495.htm#fromView=search&page=1&position=2&uuid=ddabc84a-4add-4805-984a-6bb719690acc"><img src="images/wildlife.avif" alt="Wildlife" style="width:500px;height:300px"></a>
+            <a href="https://www.freepik.com/free-photo/sunset-majestic-coastal-cliff-waves-breaking-generative-ai_41073661.htm#fromView=search&page=1&position=50&uuid=ddabc84a-4add-4805-984a-6bb719690acc"><img src="images/sunset.avif" alt="Coastal Sunset" style="width:500px;height:300px"></a>
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul class="menu">
+            <li><a href="https://www.freepik.com/free-ai-image/close-up-delicious-asian-food_48014590.htm#fromView=search&page=1&position=4&uuid=1d1cedea-4739-4f37-bd67-4de117112f32"><img src="images/ribs.avif" alt="Homemade Ribs" style="width:500px;height:600px"></a>Tasty Home Cooked Ribs</li>
+            <li><a href="https://www.freepik.com/free-photo/front-view-burger-stand_9523079.htm#fromView=search&page=1&position=32&uuid=e07a27bc-c755-4a0b-ac95-522176161de8"><img src="images/burgers.jpg" alt="Tasty Burger" style="width:500px;height:300px"></a>All You Can Eat Burger</li>
+            <!-- Add more items as needed -->
+        </ul>
+    </section>
+</body>
+</html>
